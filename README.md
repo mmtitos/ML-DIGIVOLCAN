@@ -1,4 +1,4 @@
-# ML-INVOLCAN
+# ML-DIGIVOLCAN
 # Multi station volcano seismic monitoring system based on transfer-learning
 A multi-station volcano seismic monitoring approach based on transfer learning techniques. We applied a Dilated RNN–LSTM or a classical RNN-LSTM architectures —both trained with a master dataset and catalogue belonging to Deception Island volcano (Antarctica), as blind-recognizers to a new volcanic environment (Canary Island). 
 
