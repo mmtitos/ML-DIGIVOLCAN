@@ -75,7 +75,21 @@ The system is configured through a **configuration file**, where parameters are 
 - **[monitoring]**  
   Defines whether the system runs in real-time or offline mode:  
   - `real_time`: `True` for real-time operation, `False` for offline  
-  - `alternative_date`: in offline mode, the analysis is performed between the dates specified here  
+  - `alternative_date`: in offline mode, the analysis is performed between the dates specified here
+
+## Running the Models
+
+To run the models, simply adjust the **configuration file** and move into the corresponding directory (`Dilated-LSTM` or `TCN`).  
+
+- For **real-time recognition and catalog creation**, run:  
+
+```bash
+python3 real_time_monitoring.py
+
+- For **recognition, catalog creation, and system re-training (using the weakly supervised pretraining approach)**, run:  
+
+```bash
+python3 weakly_retraining.py
 
 
 
