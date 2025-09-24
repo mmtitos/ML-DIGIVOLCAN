@@ -92,6 +92,13 @@ python3 real_time_monitoring.py
 ```bash
 python3 weakly_retraining.py
 ```
+## Acknowledgments
 
+This software was developed as part of the DigiVolCan project - A digital infrastructure for forecasting volcanic eruptions in the Canary Islands.
+The results are the outcome of collaboration between the University of Granada, the Canary Islands Volcanological Institute (INVOLCAN), the Institute of Technological and Renewable Energies (ITER), the University of La Laguna, and Aragón Photonics.
+
+![Project Screenshot](./logo.png)
+
+This work has been funded by the Spanish Project PID2022-143083NB-I00, “LEARNING”, funded by MICIU/AEI /10.13039/501100011033 and by FEDER, UE. This work has been partially funded by the Spanish Project: PLEC2022-009271 “DigiVolCan”, funded by MCIN/AEI, funded by MCIN/AEI/10.13039/501100011033 and by EU NextGenerationEU/PRTR, 10.13039/501100011033 and SDAS (B-TIC-542-UGR20). The authors would also like to acknowledge Instituto Andaluz de Geofísica,  Instituto Volcanológico de Canarias (INVOLCAN), Raúl Arámbula-Mendoza and CENAPRED for providing the data from Deception Island, Popocatépetl and Tajogaite volcanoes supporting this work. 
 
 
