@@ -22,13 +22,19 @@ the statistical significance of the change observed, are not strictly necessary 
   (d) Finally, the pre-trained systems were re-trained using the selected instances considering as labels the pseudo-labels obtained by the pre-trained models during the recognition task.
 
 
-## Dilated/Classical RNN-LSTM
+## Dilated/Classical RNN-LSTM and TCN
 
 The Dilated RNN-LSTM architecture implemented in this work uses as baseline the open source code located at Github [https://github.com/zalandoresearch/pytorch-dilated-rnn]. Users can change the number of layer easily getting the model deeper.
 
+The TCN architecture implemented in this work uses as baseline the open source code located at Github [https://github.com/philipperemy/keras-tcn]
+
 Inputs are 4-second windows parameterized as 48-features vectors corresponding to a bank of filters (16 filters) as well as their first and second derivatives.
 
-The small version of the code and the training dataset belonging to Deception Island (partition 1 of leave one out approach) in their parameterized version are included to the RNN_LSTM/Deception folder for training and testing proposes. Each folder includes a readme.txt file explaining how to use the code.
+The following works were especially helpful for understanding the parameterization scheme:   
+
+Titos, M., Bueno, A., García, L., Benítez, M. C., & Ibáñez, J. (2018). Detection and classification of continuous volcano-seismic signals with recurrent neural networks. *IEEE Transactions on Geoscience and Remote Sensing*, **57**(4), 1936–1948.  
+
+Titos, M., Carthy, J., García, L., Barnie, T., & Benítez, C. (2024). Dilated-RNNs: A deep approach for continuous volcano-seismic events recognition. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, **17**, 11857–11865. https://doi.org/10.1109/JSTARS.2024.3421921 
 
 ### Installation
 
