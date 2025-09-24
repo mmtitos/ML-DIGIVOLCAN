@@ -26,7 +26,7 @@ the statistical significance of the change observed, are not strictly necessary 
 
 The Dilated RNN-LSTM architecture implemented in this work uses as baseline the open source code located at Github [https://github.com/zalandoresearch/pytorch-dilated-rnn]. Users can change the number of layer easily getting the model deeper.
 
-The TCN architecture implemented in this work uses as baseline the open source code located at Github [https://github.com/philipperemy/keras-tcn]
+The TCN architecture implemented in this work uses as baseline the open source code located at Github [https://github.com/philipperemy/keras-tcn]. Users can change the parameters of the model easily following the repository instructions.
 
 Inputs are 4-second windows parameterized as 48-features vectors corresponding to a bank of filters (16 filters) as well as their first and second derivatives.
 
