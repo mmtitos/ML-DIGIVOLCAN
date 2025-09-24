@@ -64,7 +64,7 @@ The system is configured through a **configuration file**, where parameters are 
 
 - **[data_path]**  
   Defines the data directories and acquisition details:  
-  - `relative` and `relative2`: paths to the seismic data  
+  - `relative`: path to the seismic data  
   - `network`: seismic network code  
   - `component`: component to be analyzed  
 
