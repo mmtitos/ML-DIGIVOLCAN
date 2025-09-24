@@ -1,6 +1,8 @@
 # ML-DIGIVOLCAN
 # Multi station volcano seismic monitoring system based on transfer-learning
-A multi-station volcano seismic monitoring approach based on transfer learning techniques. We applied a Dilated RNN–LSTM or a classical RNN-LSTM architectures —both trained with a master dataset and catalogue belonging to Deception Island volcano (Antarctica), as blind-recognizers to a new volcanic environment (Canary Island). 
+This system provides a framework for real-time monitoring of volcano-seismic signals using machine learning. Traditional approaches rely on fully annotated seismic catalogs, which are costly and incomplete, often introducing bias. The system leverages a weakly supervised learning approach that not only recognizes events with high accuracy (up to 90%) but also identifies unannotated signals and corrects mislabelled traces.
+Trained initially on data from Deception Island Volcano (Antarctica), the system can act as a pseudo-labeller when applied to other volcanic contexts such as Popocatépetl (Mexico) and Tajogaite (Canary Islands). This allows it to uncover and update valuable information about volcanic dynamics across different regions.
+The results highlight the potential for developing more advanced semi-supervised and universal monitoring tools, capable of adapting to temporal changes in seismic signals and improving the reliability of volcano monitoring worldwide.
 
 # Re-training approaches
 Systems were re-trained under 2 different approaches: 
