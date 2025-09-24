@@ -30,6 +30,17 @@ Inputs are 4-second windows parameterized as 48-features vectors corresponding t
 
 The small version of the code and the training dataset belonging to Deception Island (partition 1 of leave one out approach) in their parameterized version are included to the RNN_LSTM/Deception folder for training and testing proposes. Each folder includes a readme.txt file explaining how to use the code.
 
-## Use
+### Installation
+
+To run the software, you can install the required dependencies using the provided `spec-file_torch.txt` file in the GitHub repository:  
+
+```bash
+conda create --name myenv --file spec-file_torch.txt
+``` 
+
+## Running the Model
+
+The model is designed to process data from raw seismic files.
+
 
 
