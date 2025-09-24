@@ -41,39 +41,41 @@ conda create --name myenv --file spec-file_torch.txt
 ## Running the Model
 
 ### Configuration File
-The system is configured through a configuration file, where parameters are modified in different header sections:
-#####
-[DEFAULT]
-Defines the recognition model parameters, such as:
-  n_layers: number of layers.
-  tcn_n_filters: number of filters in the TCN.
-#####
-[weakly]
-  Controls the weakly supervised re-training process:
-  weakly: whether weakly supervised re-training is enabled.
-  min_chunk: size of the seismic segments to be recognized (in minutes).
-  prob_threshold: probability threshold to include or discard recognized events in the database.
-#####
-[model_path]
-Specifies the location of the pre-trained models. By default, these correspond to the models included in the repository.
-#####
-[stations]
-Lists the stations to be analyzed. In the provided example, these are stations from La Palma volcano in the Canary Islands.
-#####
-[data_path]
-  Defines the data directories and acquisition details:
-  relative and relative2: paths to the seismic data.
-  network: seismic network code.
-  component: component to be analyzed.
-#####
-[frequency]
-Sets the refresh rate in real-time mode, in seconds. This parameter determines how often the system performs a new recognition and re-training cycle.
-#####
-[monitoring]
-  Defines whether the system runs in real-time or offline mode:
-  real_time: True for real-time operation, False for offline.
-  alternative_date: in offline mode, the analysis is performed between the dates specified here.
-#####
+The system is configured through a **configuration file**, where parameters are modified in different header sections:
+
+- **[DEFAULT]**  
+  Defines the recognition model parameters, such as:  
+  - `n_layers`: number of layers  
+  - `tcn_n_filters`: number of filters in the TCN  
+
+- **[weakly]**  
+  Controls the weakly supervised re-training process:  
+  - `weakly`: whether weakly supervised re-training is enabled  
+  - `min_chunk`: size of the seismic segments to be recognized (in minutes)  
+  - `prob_threshold`: probability threshold to include or discard recognized events in the database  
+
+- **[model_path]**  
+  Specifies the location of the pre-trained models.  
+  By default, these correspond to the models included in the repository.  
+
+- **[stations]**  
+  Lists the stations to be analyzed.  
+  In the provided example, these are stations from *La Palma volcano* in the Canary Islands.  
+
+- **[data_path]**  
+  Defines the data directories and acquisition details:  
+  - `relative` and `relative2`: paths to the seismic data  
+  - `network`: seismic network code  
+  - `component`: component to be analyzed  
+
+- **[frequency]**  
+  Sets the refresh rate in real-time mode (in seconds).  
+  This parameter determines how often the system performs a new recognition and re-training cycle.  
+
+- **[monitoring]**  
+  Defines whether the system runs in real-time or offline mode:  
+  - `real_time`: `True` for real-time operation, `False` for offline  
+  - `alternative_date`: in offline mode, the analysis is performed between the dates specified here  
 
 
 
