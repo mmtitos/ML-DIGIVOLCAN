@@ -85,11 +85,13 @@ To run the models, simply adjust the **configuration file** and move into the co
 
 ```bash
 python3 real_time_monitoring.py
+```
 
 - For **recognition, catalog creation, and system re-training (using the weakly supervised pretraining approach)**, run:  
 
 ```bash
 python3 weakly_retraining.py
+```
 
 
 
