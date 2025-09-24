@@ -38,7 +38,7 @@ To run the software, you can install the required dependencies using the provide
 conda create --name myenv --file spec-file_torch.txt
 ``` 
 
-## Running the Model
+## Using the Models
 
 ### Configuration File
 The system is configured through a **configuration file**, where parameters are modified in different header sections:
